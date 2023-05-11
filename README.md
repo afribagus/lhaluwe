@@ -19,9 +19,3 @@ Final Project Food Journal. Proyek ini dibuat dengan [ReactJS](https://reactjs.o
 - React icon
 - React Router
 - Dotenv
-
-## Getting Started
-
-- In the directiory, type `npm install` on your terminal to adding node module.
-- You can type `npm install` to run the app.
-- The app will be running on [http://localhost:3000](http://localhost:3000).
