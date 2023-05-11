@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Montserrat:ital,wght@0,400;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-blend-mode: lighten;
+}
+
+
+.text {
+  text-shadow: 2px 2px #000000;
+}
+
+/* Slider */
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover1.webp");
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover2.webp");
+}
+
+.slide-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover3.webp");
+}
+.slide-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover4.webp");
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+  content: " ";
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 40px;
+  height: 70px;
+  margin: auto;
+}
+
+.text {
+    text-align: left;
+    font-size: 30px;
+    opacity: 70%;
+    padding: 30px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 200;
+    width: 500px;
+    margin-left: 130%;
+    color: white
+}

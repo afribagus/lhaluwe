@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.profile-detail {
+  max-width: 550px;
+  text-align: center;
+}
+
+.img-profile-page {
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  border: 2px solid #509E2F;
+  object-fit: cover;
+}
+
+.with-background {
+  background-image: url("../../assets/login.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background {
+  background-image: url("../../assets/login.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}

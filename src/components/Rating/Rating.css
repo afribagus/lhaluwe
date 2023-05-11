@@ -1,0 +1,97 @@
+.set-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.create-rating {
+    border: 1px solid rgba(255, 94, 0, 0.932);
+    color: rgba(255, 94, 0, 0.932);
+    background-color: #FD841F;
+    width: 20%;
+    height: 200% !important;
+    margin-top: -5px;
+}
+
+.create-text {
+    color: #fff;
+    margin-top: -15px !important;
+}
+
+.add-input-s {
+    width: 300px !important;
+    border: 2px solid #FD841F;
+}
+
+
+.form-labelo {
+    margin-left: 0px !important;
+}
+
+.short-line-container {
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+
+.short-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1px;
+    width: 50%;
+    background-color: white;
+    border-top: 5px solid white;
+}
+
+.care {
+    padding-bottom: 35px;
+}
+
+
+@media (max-width: 767px) {
+    .short-line {
+        width: 85%;
+    }
+}
+
+@media (width < 768px) {
+    .box-addFoods {
+        margin-left: -10% !important;
+    }
+
+    .create-rating {
+        width: 70px;
+        margin-left: 30px !important;
+    }
+
+    .add-input-s {
+        width: 300px !important;
+        margin-left: 30px !important;
+    }
+
+    .card-name {
+        margin-top: -300px !important;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .card-r {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .img-fluid-shadow {
+        width: 290px;
+    }
+
+    .food-card-shadow {
+        margin-left: -70px !important;
+        width: 320px !important;
+    }
+
+    .form-labelo {
+        margin-left: 30px !important;
+    }
+}
